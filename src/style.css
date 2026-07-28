@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface-light text-navy-700 dark:bg-surface-dark dark:text-slate-100 font-sans transition-colors duration-300;
+}
+
+/* visible focus ring for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  @apply outline-none ring-2 ring-lavender-400 ring-offset-2 ring-offset-surface-light dark:ring-offset-surface-dark;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-navy-100 dark:bg-navy-600 rounded-full;
+}
