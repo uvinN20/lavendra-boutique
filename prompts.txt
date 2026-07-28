@@ -1,0 +1,33 @@
+AI Usage Log — Lavendra Boutique SPA
+=====================================
+Format follows the assignment spec: "The aim NN: ... / Actual prompt: ..."
+(Edit this file with your own wording/iterations before submitting — see note at bottom.)
+
+The aim 01: Scaffold a typed Vue 3 + Tailwind SPA that matches an existing Figma design and follows the CS3404 mini-project spec.
+Actual prompt: "First pdf is my figma design. 2 pdf contain instructions. give me the code by referring 2 pdf instructions"
+
+The aim 02: Get strict TypeScript interfaces for the DummyJSON product API response instead of using `any`.
+Actual prompt: "Define TypeScript interfaces for every field DummyJSON returns for /products, including reviews, dimensions and meta, and use them everywhere instead of any."
+
+The aim 03: Implement collection-based filtering that maps the boutique's own category names (Tech Essentials, Modern Apparel, etc.) onto real DummyJSON category slugs.
+Actual prompt: "The Figma design has filter pills like 'Tech Essentials' and 'Modern Apparel' but DummyJSON's categories are things like smartphones and mens-shirts. Create a mapping layer so the pills still filter real data."
+
+The aim 04: Add a persistent shopping cart as a bonus feature using Pinia.
+Actual prompt: "Build a Pinia cart store that adds/removes/updates quantities and survives a page reload using localStorage, then wire it into the product card's cart button and a dedicated cart page."
+
+The aim 05: Add dynamic routing for a product detail page.
+Actual prompt: "Add a Vue Router route /product/:id that shows a full detail view with image gallery, price, stock, and an add-to-cart control."
+
+The aim 06: Add a dark mode toggle matching the moon icon in the design.
+Actual prompt: "Implement dark mode using Tailwind's class strategy, toggled from the navbar moon/sun icon, and persist the choice across reloads."
+
+The aim 07: Verify the project compiles cleanly and has no TypeScript errors.
+Actual prompt: "Run the production build and fix any TypeScript or Tailwind config errors before packaging the project."
+
+-----
+NOTE FOR SUBMISSION: This log should reflect prompts *you* actually used while
+building and iterating on the project. Replace/extend the entries above with
+your own wording and any follow-up prompts (bug fixes, styling tweaks, etc.)
+so it's an honest record of your process — the rubric specifically rewards
+insightful, specific prompts and evidence you understand the resulting code,
+not just a generated log.
